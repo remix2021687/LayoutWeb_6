@@ -110,3 +110,59 @@ body {
     font-weight: 300;
 }
 /*Step-2 endblock*/
+
+/*Step-3 block*/
+.step-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 891px;
+    background-color: whitesmoke;
+}
+
+.step-3-header {margin-bottom: 105px;}
+
+.step-3-header h2 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.step-3-header p {
+    max-width: 560px;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.step-3-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-3-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+}
+
+.step-3-box img {margin-bottom: 25px;}
+
+.step-3-box h2 {
+    margin: 12px 0 25px 0;
+    font-size: 18px;
+}
+
+.step-3-box p {
+    max-width: 320px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;   
+}
+
+/*Step-3 endblock*/
