@@ -166,3 +166,76 @@ body {
 }
 
 /*Step-3 endblock*/
+
+/*Step-4 block*/
+.step-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-4-header {
+    margin-top: 150px;
+    margin-bottom: 105px;
+    text-align: center;
+}
+
+.step-4-header h2 {
+    margin-bottom: 40px;
+    font-size: 42px;
+}
+
+.step-4-header p {
+    max-width: 560px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.step-4-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.step-4-box-img-1 {
+    background-image: url(https://static.tildacdn.com/tild6261-3436-4137-a665-633737326332/jonathanvelasquez384.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 560px;
+    height: 420px;
+}
+
+.step-4-box-img-2 {
+    background-image: url(https://static.tildacdn.com/tild6463-6339-4035-b262-663837633239/k158pom2037.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 560px;
+    height: 420px;
+}
+
+.step-4-box-img-3 {
+    background-image: url(https://static.tildacdn.com/tild6664-6133-4263-b130-666637653437/e732eb68a62c456a8dcc.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 560px;
+    height: 420px;
+}
+
+
+.step-4-box-content {margin-left: 40px;}
+
+.step-4-box-content h2 {
+    font-size: 24px;
+    line-height: 1.23;
+    margin-bottom: 24px;
+}
+
+.step-4-box-content p {
+    max-width: 500px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*Step-4 endblock*/
