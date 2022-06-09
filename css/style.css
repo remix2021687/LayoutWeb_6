@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    box-sizing: content-box;
+    line-height: 1.6;
+}
+/*Step-1 block*/
+.step-1 {
+    background-image: url(https://static.tildacdn.com/tild6335-3166-4166-a335-643939336261/workplace1245776_1920.jpg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:color-burn;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0 40px 0 40px;
+}
+
+.topnav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.topnav-right a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-weight: 600;
+}
+
+.topnav-right button {
+    background-color: #ff4c7c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 129px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.topnav-right button:hover {
+    background-color: white;
+    color: #ff4c7c;
+}
+
+.step-1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.step-1-info {
+    margin-top: 300px;
+    /* margin-bottom: 250px; */
+    color: white;
+}
+
+.step-1-info h2 {
+    font-size: 72px;
+    padding: 0 0 35px 0;
+}
+
+.step-1-info p {
+    width: 700px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/*Step-1 endblock*/
