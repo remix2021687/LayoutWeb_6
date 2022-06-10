@@ -239,3 +239,68 @@ body {
 }
 
 /*Step-4 endblock*/
+
+/*Step-5 block*/
+.step-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 940px;
+}
+
+.step-5 > h2 {
+    font-size: 42px;
+    margin-bottom: 90px;
+}
+
+.step-5-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.step-5-box img {margin-right: 40px;}
+
+.step-5-box h2 {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.step-5-box p {
+    max-width: 665px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*Step-5 endblock*/
+
+/*Footer block*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 612px;
+}
+
+.footer h2 {
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+
+.footer p {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer img {
+    margin-top: 50px;
+}
+/*Footer endblock*/
