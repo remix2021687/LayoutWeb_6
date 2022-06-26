@@ -394,6 +394,8 @@ body {
         margin: 0 10px;
         margin-bottom: 10px;
     }
+
+    .step-5-box img {margin-left: 10px;}
 }
 
 @media (max-width: 375px) {
@@ -488,6 +490,10 @@ body {
         font-size: 18px;
         font-weight: 300;
     }
+
+    .footer h2 {font-size: 14px;}
+    
+    .footer p {font-size: 26px;}
 }
 
 /*Media endblock*/
