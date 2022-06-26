@@ -274,6 +274,8 @@ body {
 .step-5-box img {margin-right: 40px;}
 
 .step-5-box h2 {
+    display: inline;
+    max-width: 100%;
     font-size: 20px;
     margin-bottom: 14px;
 }
@@ -340,6 +342,8 @@ body {
     }
 
     .step-3 {height: 1200px;}
+
+    
 }
 
 @media (max-width: 426px) {
@@ -432,6 +436,8 @@ body {
         font-size: 15px;
         font-weight: 400;
     }
+
+    .step-5 {height: 1200px;}
 }
 
 @media (max-width: 321px) {
@@ -466,6 +472,22 @@ body {
     .step-3-header h2 {font-size: 20px;}
 
     .step-4-header p {font-size: 18px;}
+
+    .step-5 {height: 1500px;}
+    
+    .step-5 > h2 {font-size: 30px;}
+    
+    .step-5-box img {margin-left: 10px;}
+    
+    .step-5-box h2 {
+        font-size: 18px;
+    }
+    
+    .step-5-box p {
+        max-width: 665px;
+        font-size: 18px;
+        font-weight: 300;
+    }
 }
 
 /*Media endblock*/
