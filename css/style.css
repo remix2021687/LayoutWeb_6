@@ -313,15 +313,33 @@ body {
 /*Footer endblock*/
 
 /*Midia block*/
-@media (max-width: 1025px) {}
+@media (max-width: 1025px) {
+    .step-4-box-img-1 {
+        width: 510px;
+        height: 480px;
+        margin-left: 10px;
+    }
+    
+    .step-4-box-img-2 {
+        width: 510px;
+        height: 480px;
+        margin-right: 10px;
+    }
+    
+    .step-4-box-img-3 {
+        width: 510px;
+        height: 480px;
+        margin-left: 10px;
+    }
+}
 
 @media (max-width: 769px) {
     .step-1-info h2 {
         font-size: 62px;
         padding: 0 0 35px 0;
     }
-    
-    
+
+    .step-3 {height: 1200px;}
 }
 
 @media (max-width: 426px) {
@@ -342,19 +360,77 @@ body {
     .step-1-info p {font-size: 20px;}
 
     .step-3 {height: 1400px;}
+
+    .step-3-header h2 {font-size: 28px;}
+    
+    .step-3-header p {font-size: 20px;}
+
+    .step-4-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .step-4-box-img-1 {
+        width: 400px;
+        height: 400px;
+        margin: 0 10px;
+        margin-bottom: 10px;
+    }
+    
+    .step-4-box-img-2 {
+        width: 400px;
+        height: 400px;
+        margin: 0 10px;
+        margin-top: 10px;
+    }
+    
+    .step-4-box-img-3 {
+        width: 400px;
+        height: 400px;
+        margin: 0 10px;
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 375px) {
     .step-1-info h2 {font-size: 30px;}
     
     .step-1-info p {font-size: 18px;}
+    
 
-    .step-2 h2 {
-        font-size: 35px;
+    .step-2 h2 {font-size: 35px;}
+    
+    .step-2 p {padding: 0 5px;}
+    
+    .step-3-header h2 {font-size: 25px;}
+    
+    .step-4-header h2 {font-size: 35px;}
+    
+    .step-4-header p {font-size: 18px;}
+
+    .step-4-box-content {margin-left: 10px;}
+
+    .step-4-box-img-1 {
+        width: 350px;
+        height: 350px;
+        align-self: center;
     }
     
-    .step-2 p {
-        padding: 0 5px;
+    .step-4-box-img-2 {
+        width: 350px;
+        height: 350px;
+        align-self: center;
+    }
+    
+    .step-4-box-img-3 {
+        width: 350px;
+        height: 350px;
+        align-self: center;
+    }
+
+    .step-3-header p {
+        font-size: 15px;
+        font-weight: 400;
     }
 }
 
@@ -365,6 +441,31 @@ body {
         font-size: 15px;
         font-weight: 400;
     }
+
+    .step-4-box-img-1 {
+        width: 310px;
+        height: 310px;
+        align-self: center;
+        margin: 0;
+    }
+    
+    .step-4-box-img-2 {
+        width: 310px;
+        height: 310px;
+        align-self: center;
+        margin: 0;
+    }
+    
+    .step-4-box-img-3 {
+        width: 310px;
+        height: 310px;
+        align-self: center;
+        margin: 0 0 10px 0;
+    }
+
+    .step-3-header h2 {font-size: 20px;}
+
+    .step-4-header p {font-size: 18px;}
 }
 
 /*Media endblock*/
